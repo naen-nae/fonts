@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "gitHooks": {
-    "post-commit": "node ./scripts/buildFiles.js"
+    "pre-commit": "node ./scripts/buildFiles.js"
   },
   "devDependencies": {
     "jsonminify": "^0.4.1",
