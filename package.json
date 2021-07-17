@@ -1,0 +1,10 @@
+{
+  "name": "fonts",
+  "version": "1.0.0",
+  "description": "naen-nae font files",
+  "main": "index.js",
+  "repository": "https://github.com/naen-nae/fonts",
+  "author": "shj <kan02134@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
