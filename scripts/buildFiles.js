@@ -3,7 +3,10 @@ const git = simpleGit();
 const fontGen = require('./fontGen');
 
 (async () => {
-  await fontGen();
-  await git.add('build');
-  await git.commit('build font files');
+  const { files } = await git.status();
+
+  if (files.some(({ path }) => path.startsWith('file/'))) {
+    await fontGen();
+    await git.add('build');
+  }
 })();
