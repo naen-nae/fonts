@@ -7,6 +7,9 @@
   "author": "shj <kan02134@gmail.com>",
   "license": "MIT",
   "private": true,
+  "gitHooks": {
+    "post-commit": "node ./scripts/buildFiles.js"
+  },
   "devDependencies": {
     "jsonminify": "^0.4.1",
     "lodash": "^4.17.21",
