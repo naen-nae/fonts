@@ -5,7 +5,7 @@ const fontGen = require('./fontGen');
 (async () => {
   const { files } = await git.status();
 
-  if (files.some(({ path }) => path.startsWith('file/'))) {
+  if (files.some(({ path }) => path.startsWith('files/'))) {
     await fontGen();
     await git.add('build');
   }
