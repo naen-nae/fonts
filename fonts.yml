@@ -973,7 +973,7 @@ fonts:
       서평원 꺾깎체의 지적 재산권은 서울특별시평생교육진흥원에 있으나, 오픈 라이선스로 자유롭게 수정하고 재배포 할 수 있습니다.
       서체의 개발은 한글 디자인 및 폰트 기술 전문 회사 '이도타입' 에서 맡았습니다.
 
-      활용 매뉴얼: https://tinyurl.com/2frza2a7
+      활용 매뉴얼: https://tinyurl.com/85j6bx5j
 
   - author: (주)티머니
     name: 티머니 둥근바람
@@ -1007,7 +1007,7 @@ fonts:
       전용서체 티머니 둥근바람을 사용한 인쇄물, 광고물(온/오프라인) 등의 이미지는 (주)티머니 마케팅을 위해 활용될 수 있습니다.
       이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
 
-      티머니둥근바람서체 상세 사용규정: https://tinyurl.com/49bxvnx3
+      티머니둥근바람서체 상세 사용규정: https://tinyurl.com/2ampc6s5
 
   - author: 레시피코리아
     name: 레시피코리아
@@ -1274,7 +1274,7 @@ fonts:
       - Y 너만을 비춤체는 인쇄, 웹, 영상, 임베딩, 패키지 등에 상업적 목적으로 사용이 가능하다.
         단, BI/CI 용도로는 사용을 금지한다.
 
-      너만을 비춤체 매뉴얼: https://tinyurl.com/4dxjwdx6
+      너만을 비춤체 매뉴얼: https://tinyurl.com/24te9s7a
 
   - author: 리디주식회사
     name: 리디바탕
@@ -1391,7 +1391,7 @@ fonts:
 
       Update 2020.11
 
-      라이선스 전문: https://tinyurl.com/pknpa62w
+      라이선스 전문: https://tinyurl.com/t2n7d2x3
 
   - author: Hyun S. Choi
     name: HS봄바람체 3.0
@@ -1503,7 +1503,7 @@ fonts:
       - 글꼴 폰트파일(OTT,TTF) 자체를 유상으로 판매하거나 어떠한 형태로든 임의 수정 또는 개작하여 재배포하는 것은 금지하고 있으니 유의 부탁드립니다.
       - 문의사항 / contact@elice.io, 02-036-0012
 
-      라이선스 전문: https://tinyurl.com/retnxxh8
+      라이선스 전문: https://tinyurl.com/vh4k34fh
 
   - author: 네이버
     name: 가람연꽃
@@ -7241,3 +7241,204 @@ fonts:
       원작자
       - 김종태 IT문화원 원장 ( http://ith.kr/ )
       - Fixedsys Excelsior: Darien Gavin Valentine
+
+  - author: 눈서리
+    name: 함박눈
+    files:
+      - 'SF함박눈/SF함박눈TTF.ttf'
+    fontWeights:
+      - 400
+    fontFamily: SF_HambakSnow
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      개인용, 상업용 모두 사용 가능
+      2차 수정 및 배포 가능
+      영리 목적의 판매를 금합니다
+
+      (자세한 내용은 https://blog.naver.com/snowfrost001/222287054506 를 참고해주세요)
+
+  - author: leedheo
+    name: 도스고딕
+    files:
+      - 'DOSGothic/DOSGothic.ttf'
+    fontWeights:
+      - 400
+    fontFamily: DOSGothic
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      비트맵 데이터를 추출하여 도스 스타일 글꼴을 만들었습니다. TTF 및 BDF를 지원합니다.
+
+      해당 글꼴들은 MIT 라이선스에 기반을 둡니다.
+
+      GitHub: https://github.com/hurss/fonts
+
+  - author: leedheo
+    name: 도스명조
+    files:
+      - 'DOSMyungjo/DOSMyungjo.ttf'
+    fontWeights:
+      - 400
+    fontFamily: DOSMyungjo
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      비트맵 데이터를 추출하여 도스 스타일 글꼴을 만들었습니다. TTF 및 BDF를 지원합니다.
+
+      해당 글꼴들은 MIT 라이선스에 기반을 둡니다.
+
+      GitHub: https://github.com/hurss/fonts
+
+  - author: leedheo
+    name: 도스샘물
+    files:
+      - 'DOSSaemmul/DOSSaemmul.ttf'
+    fontWeights:
+      - 400
+    fontFamily: DOSSaemmul
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      비트맵 데이터를 추출하여 도스 스타일 글꼴을 만들었습니다. TTF 및 BDF를 지원합니다.
+
+      해당 글꼴들은 MIT 라이선스에 기반을 둡니다.
+
+      GitHub: https://github.com/hurss/fonts
+
+  - author: leedheo
+    name: 미래로
+    files:
+      - 'MiraeroNormal/MiraeroNormal.ttf'
+    fontWeights:
+      - 400
+    fontFamily: MiraeroNormal
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      비트맵 데이터를 추출하여 도스 스타일 글꼴을 만들었습니다. TTF 및 BDF를 지원합니다.
+
+      해당 글꼴들은 MIT 라이선스에 기반을 둡니다.
+
+      GitHub: https://github.com/hurss/fonts
+
+  - author: leedheo
+    name: 삼국지3
+    files:
+      - 'Sam3KRFont/Sam3KRFont.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Sam3KRFont
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      비트맵 데이터를 추출하여 도스 스타일 글꼴을 만들었습니다. TTF 및 BDF를 지원합니다.
+
+      해당 글꼴들은 MIT 라이선스에 기반을 둡니다.
+
+      GitHub: https://github.com/hurss/fonts
+
+  - author: CJ E&M
+    name: 즐거운이야기
+    files:
+      - 'tvN10font_TTF/tvN 즐거운이야기 Light.ttf'
+      - 'tvN10font_TTF/tvN 즐거운이야기 Medium.ttf'
+      - 'tvN10font_TTF/tvN 즐거운이야기 Bold.ttf'
+    fontWeights:
+      - 300
+      - 500
+      - 700
+    fontFamily: Enjoystories
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      * 사용 대상 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공됩니다.
+      단, 다른 소프트웨어와 번들하거나 응용하여 재배포 할 경우 출처 표기를 필수로 합니다.
+      예) 이 페이지에는 'tvN 즐거운이야기'가 적용되어 있습니다.
+
+      * 사용 제한
+      합법적이지 못하거나 불건전한 용도의 사용을 금합니다. 폰트의 임의 수정 및 변경, 판매 등을 할 수 없습니다.
+      그 외 폰트 사용에 대한 문의는 tvn.bd@cj.net 로 연락 주시기 바랍니다.
+
+      사용 가이드: https://tinyurl.com/3p48fpfj
+
+  - author: 산돌 X 윤태호
+    name: 미생
+    files:
+      - 'SDMiSaeng/SDMiSaeng.woff'
+    fontWeights:
+      - 400
+    fontFamily: SDMiSaeng
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      미생체는 저작권으로부터 완전히 자유로운 폰트입니다.
+      단, 미생체를 유료 양도 및 판매하는 상업적 행위는 금지합니다.
+
+  - author: 로커스
+    name: 로커스상상고딕
+    files:
+      - 'locus_sangsang/locus_sangsang.ttf'
+    fontWeights:
+      - 400
+    fontFamily: locus_sangsang
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      로커스 아트팀은 서체 저작권이 강조되는 요즘, 배포가 용이한 무료서체를 제작하고 배포하여 사회에 공헌하고자 하였습니다.
+      '로커스 상상고딕체'는 로커스 로고를 모티브로 기존의 직선적인 고딕에 감성을 느낄 수 있는 곡선을 더해 부드러움과 변화, 창조를 담아 디자인 하였습니다.
+      학교, 기업 그 외 모든 사람들이 저작권의 제약없이 손쉽게 사용할 수 있는 '로커스 상상고딕체'는 무료 서체 입니다.
