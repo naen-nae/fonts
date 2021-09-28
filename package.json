@@ -7,8 +7,8 @@
   "author": "shj <kan02134@gmail.com>",
   "license": "MIT",
   "private": true,
-  "gitHooks": {
-    "pre-commit": "node ./scripts/buildFiles.js"
+  "scripts": {
+    "commit-fonts": "node ./scripts/buildFiles.js"
   },
   "devDependencies": {
     "jsonminify": "^0.4.1",
