@@ -3,12 +3,14 @@ const git = simpleGit();
 const fontGen = require('./fontGen');
 
 (async () => {
-  const status = await git.status();
-  const { files } = status;
+  const diff = await git.diff('fonts.yml');
+  const isDiff =
+    diff
+      .split('\n')
+      .filter(line => line.startsWith('- ') || line.startsWith('+ ')).length >
+    0;
 
-  console.log(status);
-
-  if (files.some(({ path }) => path.startsWith('files/'))) {
+  if (isDiff) {
     await fontGen();
     await git.add('build');
   }
