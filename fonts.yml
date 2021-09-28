@@ -882,40 +882,6 @@ fonts:
       카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
       이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
 
-  - author: 파리6대학디자인학과
-    name: 한불 정부표준 타자기체
-    files:
-      - 'KoreanFrenchTypewriter/KoreanFrenchTypewriter.ttf.woff2'
-    fontWeights:
-      - 400
-    fontFamily: KoreanFrenchTypewriter
-    licenseSummary:
-      print: true
-      website: true
-      video: true
-      paper: true
-      embeding: true
-      bici: true
-      ofl: true
-    license: |
-      프랑스 혁명 230주년을 기념하여 한국과 프랑스 수교 133주년을 기념하여 디자인학부 유학생들이 제작한 폰트입니다.
-      사용에서 참조된 서체는 약 100년 전 Underwood Corporation에 의해 유럽으로 수출하기 위해 만들어진 타자기를 모델로 만들어졌습니다.
-      특히 프랑스어를 지원하는 타자 글꼴이 부족한 한국인들에게 더 많은 도움을 줄 것으로 기대됩니다.
-
-      2019년 7월 14일 파리 6대학에서 빠트릭 정은 킴.
-
-      ---
-
-      Korean Copyright 상업용 무료 폰트 / 이 폰트는 프랑스와 한국의 우정을 돈독히 하기 위해 고안되었습니다.
-      이 글꼴은 상용 프로젝트에 사용할 수 있습니다. 맞아요, 저작권도 없고요. 비바 프랑스! 대한민국 만세!
-
-      Korean Family 한국·프랑스 정부 표준 타자기체 (12 px 권장)
-      Korean Styles (SubFamily) 보통
-      Korean Fullname 한국·프랑스 정부 표준 타자기체 (12 px 권장)
-      Korean Version 1.00;2021년 2월 17일;FontForge Windows 빌드(32비트)
-      Korean Preferred Family 한국·프랑스 정부 표준 타자기체 (12 px 권장)
-      Korean Preferred Styles Regular
-
   - author: (주)에스코어
     name: 에스코어드림
     files:
