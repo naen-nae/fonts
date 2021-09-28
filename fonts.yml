@@ -7408,3 +7408,69 @@ fonts:
       로커스 아트팀은 서체 저작권이 강조되는 요즘, 배포가 용이한 무료서체를 제작하고 배포하여 사회에 공헌하고자 하였습니다.
       '로커스 상상고딕체'는 로커스 로고를 모티브로 기존의 직선적인 고딕에 감성을 느낄 수 있는 곡선을 더해 부드러움과 변화, 창조를 담아 디자인 하였습니다.
       학교, 기업 그 외 모든 사람들이 저작권의 제약없이 손쉽게 사용할 수 있는 '로커스 상상고딕체'는 무료 서체 입니다.
+
+  - author: Eunbin Jeong (Dalgona.)
+    name: Neo둥근모
+    files:
+      - 'Neo둥근모/neodgm.woff2'
+    fontWeights:
+      - 400
+    fontFamily: neodgm
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      Neo둥근모, Neo둥근모 Code 및 Neo둥근모 Pro는 SIL Open Font License 1.1 하에 배포됩니다.
+      따라서 상업적, 또는 비 상업적 용도로 자유롭게 사용, 수정, 임베드, 및 재배포할 수 있습니다.
+      단, 이 글꼴을 유료로 재판매하는 행위는 금지됩니다.
+
+      LICENSE (SIL OFL v1.1) : https://github.com/Dalgona/neodgm-pro/blob/v1.000/LICENSE.txt
+
+  - author: Eunbin Jeong (Dalgona.)
+    name: Neo둥근모 Pro
+    files:
+      - 'Neo둥근모/neodgm_pro.woff2'
+    fontWeights:
+      - 400
+    fontFamily: neodgm_pro
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      Neo둥근모, Neo둥근모 Code 및 Neo둥근모 Pro는 SIL Open Font License 1.1 하에 배포됩니다.
+      따라서 상업적, 또는 비 상업적 용도로 자유롭게 사용, 수정, 임베드, 및 재배포할 수 있습니다.
+      단, 이 글꼴을 유료로 재판매하는 행위는 금지됩니다.
+
+      LICENSE (SIL OFL v1.1) : https://github.com/Dalgona/neodgm-pro/blob/v1.000/LICENSE.txt
+
+  - author: Eunbin Jeong (Dalgona.)
+    name: Neo둥근모 Code
+    files:
+      - 'Neo둥근모/neodgm_code.woff2'
+    fontWeights:
+      - 400
+    fontFamily: neodgm_code
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      Neo둥근모, Neo둥근모 Code 및 Neo둥근모 Pro는 SIL Open Font License 1.1 하에 배포됩니다.
+      따라서 상업적, 또는 비 상업적 용도로 자유롭게 사용, 수정, 임베드, 및 재배포할 수 있습니다.
+      단, 이 글꼴을 유료로 재판매하는 행위는 금지됩니다.
+
+      LICENSE (SIL OFL v1.1) : https://github.com/Dalgona/neodgm-pro/blob/v1.000/LICENSE.txt
