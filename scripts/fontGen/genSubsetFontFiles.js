@@ -3,6 +3,7 @@ const _ = require('lodash');
 const subsetFont = require('subset-font');
 
 const genNewDir = require('./utils/genNewDir');
+const createdDirNames = {};
 
 // gen subset-fonts
 module.exports = async fontsObj => {
@@ -13,7 +14,11 @@ module.exports = async fontsObj => {
     _.partial(_.map, _, async ({ files: filePaths }) => {
       // gen subset dir
       const dir = filePaths[0].split('/')[0];
-      await genNewDir(`subset-fonts/${dir}`);
+
+      if (!createdDirNames.hasOwnProperty(dir)) {
+        createdDirNames[dir] = undefined;
+        await genNewDir(`subset-fonts/${dir}`);
+      }
 
       console.log(`generating subset font files for ${dir}`);
 
