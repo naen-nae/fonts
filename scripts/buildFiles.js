@@ -13,5 +13,6 @@ const fontGen = require('./fontGen');
   if (isDiff) {
     await fontGen();
     await git.add('build');
+    await git.commit('build files');
   }
 })();
