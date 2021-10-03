@@ -1,17 +1,13 @@
-/**
- * get font format
- *
- * @param {String} file file src
- * @return {String} file format
- */
-module.exports = file => {
-  const extRE = file.match(/.*\.(.+?)$/);
+import { FontFormat } from 'font-gen';
+
+export default (fileSrc: string) => {
+  const extRE = fileSrc.match(/.*\.(.+?)$/);
 
   if (extRE === null) {
     throw new Error('failed to getting the file extension');
   }
 
-  const ext = extRE[1];
+  const ext = extRE[1] as FontFormat;
 
   if (ext === 'ttf') {
     return 'truetype';
@@ -25,7 +21,7 @@ module.exports = file => {
     return 'embedded-opentype';
   } else if (ext === 'svg') {
     return 'svg';
-  } else {
-    return '';
   }
+
+  throw new Error('Cannot resolve font format');
 };

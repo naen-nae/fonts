@@ -1,11 +1,6 @@
-const fs = require('fs/promises');
+import * as fs from 'fs/promises';
 
-/**
- * generate a new directory
- *
- * @returns {Promise<void>}
- */
-module.exports = async name => {
+export default async (name: string) => {
   try {
     await fs.access(`./build/${name}`);
     await fs.rm(`./build/${name}`, {

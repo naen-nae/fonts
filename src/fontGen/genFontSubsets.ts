@@ -1,11 +1,12 @@
-const fs = require('fs/promises');
-const _ = require('lodash');
+import { FaceGenArguments, Font } from 'font-gen';
+import * as fs from 'fs/promises';
+import _ from 'lodash';
 
-const toCdnSrc = require('./utils/toCdnSrc');
-const getFaces = require('./utils/getFaces');
-const genNewDir = require('./utils/genNewDir');
+import toCdnSrc from './utils/toCdnSrc';
+import getFaces from './utils/getFaces';
+import genNewDir from './utils/genNewDir';
 
-module.exports = async fontsObj => {
+export default async (fontsObj: Font[]) => {
   const fonts = _.map(fontsObj, font =>
     _.set(
       font,
@@ -15,13 +16,13 @@ module.exports = async fontsObj => {
   );
 
   const faceOptions = _.flatMap(fonts, ({ files, fontWeights, fontFamily }) =>
-    _.map(_.zip(files, fontWeights), ([src, fontWeight]) => ({
+    _.map(_.zip(files, fontWeights), ([src, fontWeight = 400]) => ({
       src: `${src}.woff2`,
       fontFamily,
       fontWeight,
       format: 'woff2',
     })),
-  );
+  ) as unknown as FaceGenArguments[];
 
   const faceOptionsGroupByFamily = _.groupBy(
     faceOptions,

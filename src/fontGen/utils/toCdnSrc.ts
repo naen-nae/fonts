@@ -1,11 +1,10 @@
 /**
  * to jsdelivr cdn src
  *
- * @param {String} src origin src
- * @param {String} branch repo branch name
- * @returns cdn src
+ * @param src origin src
+ * @param branch repo branch name
  */
-module.exports = (src, branch) =>
+export default (src: string, branch?: string) =>
   `https://cdn.jsdelivr.net/gh/naen-nae/fonts${
     branch !== undefined ? `@${branch}` : ''
   }/${src.replace(/^\//, '')}`;

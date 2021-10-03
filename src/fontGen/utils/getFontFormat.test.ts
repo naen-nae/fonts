@@ -1,4 +1,4 @@
-const getFontFormat = require('./getFontFormat');
+import getFontFormat from './getFontFormat';
 
 test('test getFontFormat', () => {
   [

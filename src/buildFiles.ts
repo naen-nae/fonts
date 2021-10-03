@@ -1,9 +1,10 @@
-const simpleGit = require('simple-git');
+import simpleGit from 'simple-git';
+import fontGen from './fontGen';
+
 const git = simpleGit();
-const fontGen = require('./fontGen');
 
 (async () => {
-  const diff = await git.diff('fonts.yml');
+  const diff = await git.diff(['fonts.yml']);
   const isDiff =
     diff
       .split('\n')
@@ -12,7 +13,5 @@ const fontGen = require('./fontGen');
 
   if (isDiff) {
     await fontGen();
-    await git.add('build');
-    await git.commit('build files');
   }
 })();

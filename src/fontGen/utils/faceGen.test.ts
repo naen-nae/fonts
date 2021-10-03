@@ -1,4 +1,5 @@
-const faceGen = require('./faceGen');
+import { FaceGenArguments } from 'font-gen';
+import faceGen from './faceGen';
 
 test('test faceGen', () => {
   [
@@ -64,7 +65,7 @@ test('test faceGen', () => {
     ],
   ].forEach(([options, expectValue]) =>
     expect(
-      faceGen(options)
+      faceGen(options as FaceGenArguments)
         .trim()
         .split('\n')
         .map(line => line.trim())
