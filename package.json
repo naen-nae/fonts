@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "commit-fonts": "node ./scripts/buildFiles.js"
+    "commit-fonts": "node ./src/buildFiles.js"
   },
   "devDependencies": {
     "jsonminify": "^0.4.1",
