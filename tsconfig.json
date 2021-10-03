@@ -8,11 +8,7 @@
     "noFallthroughCasesInSwitch": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    "moduleResolution": "node",
-    "typeRoots": [
-      "./src/@types",
-      "./node_modules/@types"
-    ]
+    "moduleResolution": "node"
   },
   "include": [
     "./src/**/*"
