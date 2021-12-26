@@ -11,7 +11,9 @@ export default async (fontsObj: Font[]) => {
     _.set(
       font,
       'files',
-      _.map(font.files, path => toCdnSrc(`build/subset-fonts/${path}`)),
+      _.map(font.files, path =>
+        toCdnSrc(`build/subset-fonts/${path}`, 'purge-cache-for-subsets'),
+      ),
     ),
   );
 

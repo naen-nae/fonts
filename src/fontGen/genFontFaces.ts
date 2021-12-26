@@ -10,7 +10,8 @@ import genNewDir from './utils/genNewDir';
 
 const convFontsToMinifyJson = (fonts: Font[]) =>
   _.flow(JSON.stringify, jsonminify)(fonts);
-const mapPathToCdnSrc = (path: string) => toCdnSrc(`files/${path}`);
+const mapPathToCdnSrc = (path: string) =>
+  toCdnSrc(`files/${path}`, 'purge-cache-for-subsets');
 
 export default async (fontsObj: Font[]) => {
   // parse
