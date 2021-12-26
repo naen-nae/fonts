@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "commit-fonts": "node ./built/buildFiles.js",
+    "commit-fonts": "yarn build && node ./built/buildFiles.js",
     "build": "tsc -p ."
   },
   "devDependencies": {
