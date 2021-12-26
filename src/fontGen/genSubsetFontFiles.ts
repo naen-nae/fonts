@@ -4,7 +4,8 @@ import _ from 'lodash';
 import subsetFont from 'subset-font';
 import genNewDir from './utils/genNewDir';
 
-const SUBSET_STRING = '다람쥐 헌 쳇바퀴에 타고파';
+const SUBSET_STRING =
+  '다람쥐 헌 쳇바퀴에 타고파 abcdefghijklmnopqrstuvwxyz 0123456789';
 
 interface Subset {
   path: string;
